@@ -1,6 +1,5 @@
 def first(prices):
     buy = prices.index(min(prices))
-
     if prices.index(min(prices)) == len(prices) - 1:
         print(0)
     else:
@@ -36,7 +35,6 @@ def third(prices):
     small = []
     cont = 1
     sell = 0
-
     for i in range(len(prices) - 1):
         if prices[i] < prices[i + 1]:
             small.append(prices[i])
