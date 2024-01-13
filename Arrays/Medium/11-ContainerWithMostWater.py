@@ -97,5 +97,5 @@ def fourth(height):
     return cap
 
 
-height = [1,1]
+height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
 print(fourth(height))
